@@ -1,0 +1,271 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:#F3F5FC;
+}
+
+.titulo{
+    text-align: center;
+    float: inherit;
+    font-size: 24px;
+    color: #0A3871;
+    
+
+}
+
+.tarjeta{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+
+}
+
+
+#texto{
+    width: 336px;
+    height: 58px;
+    margin-left: -5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+
+    text-align: center;  
+
+    color: #343A40;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#texto2{
+    width: 300px;
+    height: 80px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    
+    text-align: center;
+
+    color: #495057;
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}    
+
+#copiar{
+    margin-left: 26%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+    
+}
+
+#copiar:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    
+}
+
+.muneco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 998px;
+    top: 183px;
+}
+
+.frame1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+ 
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 551px;
+}
+
+#bi{
+    
+    width: 16px;
+    height: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.minusculas{
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+
+.frame3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 585px;
+
+}
+
+
+.textinput{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    background:#F3F5FC;
+}
+
+.rectangulo{
+    position: absolute;
+    width: 400px;
+    height: 644px;
+    left: 930px;
+    top: 20px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+
+
+
+#btn-encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 328px;
+    height: 67px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 24px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#btn-encriptar:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
+
+#btn-desencriptar{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#btn-desencriptar:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
+
+@media screen and (max-width:480px){
+  
+
+    body, header, .tarjeta, #btn-desencriptar, #btn-encriptar, .rectangulo, .textinput, .frame3, .frame3, .minusculas,#bi,.muneco,#copiar,#texto2,#texto,#logo,.titulo{
+        
+        width: auto;
+    
+
+    }
+
+    
+}

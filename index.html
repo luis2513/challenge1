@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <link href="https://fonts.google.com/share?selection.family=Montserrat:ital,wght@1,300">
+    
+    </head>
+
+    <body>
+        <header>
+        <h1 class="titulo"><a> ENCRIPTADOR DE MENSAJES</a></h1>
+        </header>
+        <rect class="rectangulo"></rect>
+        <div class="tarjeta">
+        
+            <div class="caja">
+
+                <img id="logo" src="imagenes/Logo.png">
+                <input type="text" class="textinput" id="inputText" placeholder="Ingrese el Texto Aqui" >
+            </div>
+            
+            <div class="muneco">
+
+            <img id="imagenderecha" src="imagenes/Muñeco.png" alt="muneco">
+            <h1 id="texto">Ningun mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name" rows="8" cols="40" disabled>Ingrese el Texto que desees encriptar o desencriptar.</textarea>
+            <button type="button" id="copiar" onclick="copiar()">¡Copiar!</button>
+
+            </div>
+
+           
+                
+            <div class="frame1">
+                
+                <img id="bi" src="imagenes/bi_exclamation-circle-fill.png" alt="bi">
+                <p class="minusculas">Solo letras minúsculas y sin acentos</p>
+               
+
+            </div>
+            
+            
+           
+            <div class="frame3">
+            
+            
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            
+            </div>
+
+        </div>
+            
+      </body>
+
+</html>
